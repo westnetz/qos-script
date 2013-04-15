@@ -1,0 +1,11 @@
+This repository contains QoS scripts utilizing the Linux traffic control
+framework.
+
+While the actual features vary, all setup should offer at least the following
+features:
+	* limiting bandwidth below link speed
+	* distributing bandwidth fairly between classes
+	* optionally garantueeing bandwidth to a class
+
+For further documentation about each queueing discipline please refer to
+OpenISP, specifically http://openisp.westnetz.org/content/qos.
